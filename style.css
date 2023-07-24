@@ -141,6 +141,8 @@ section div span{
 .home-gif{
     width: 100%;
     text-align: center;
+    transition: 4s;
+    
     
 }
 
