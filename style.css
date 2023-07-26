@@ -79,6 +79,27 @@ header .navegacao-primaria li a:hover::after {
    }
 }
 
+.sobre-img img{
+    width: 30vw;
+    border-radius: 50%;
+    animation: floatImage 4s ease-in-out infinite;
+}
+
+@keyframes floatImage {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-2.5rem);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+.texto{
+    color: #dc3545;
+ 
+}
 
 /* Download CV Section */
 
@@ -101,7 +122,7 @@ section div span{
     display: none;
 }
 .section-div div{
-    margin-top: 120px;
+    margin-top: 50px;
     align-self: start;
     display: grid;
     gap: 30px;
@@ -147,10 +168,10 @@ section div span{
 }
 
 .digitando::after{
-    content: '|';
-    margin-left: 5px;
+    content: '!';
+    color: #f7f7f7;
     opacity: 1;
-    animation: blink .5s infinite;
+    animation: blink .8s infinite;
 }
 
 @keyframes blink{
@@ -197,7 +218,7 @@ main .sobre{
 
 section div h1{
     color: #fff;
-    font-size: 38px;
+    font-size:45px;
 }
 .sobre_titulo{
     margin: 30px 0;
@@ -834,4 +855,9 @@ footer .footer__content .footer__copyright {
         padding: 0;
 
     }
+    section div h1{
+        color: #fff;
+        font-size: 35px;
+    }
+  
 }
