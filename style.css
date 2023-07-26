@@ -90,7 +90,7 @@ header .navegacao-primaria li a:hover::after {
         transform: translateY(0);
     }
     50%{
-        transform: translateY(-2.5rem);
+        transform: translatey(-1.5rem);
     }
     100%{
         transform: translateY(0);
@@ -127,7 +127,9 @@ section div span{
     display: grid;
     gap: 30px;
 }
-
+.h2{
+    display: none;
+}
 .section-div div h2{
     font-family: "Poppins", sans-serif;
     font-weight: 600;
@@ -859,5 +861,17 @@ footer .footer__content .footer__copyright {
         color: #fff;
         font-size: 35px;
     }
+    .h2-span{
+        
+        font-size: 20px;
+    }
   
+}
+@media(max-width:280px){
+    .h2-span{
+        display: none;
+    }
+    .h2{
+        display: block;
+    }
 }
