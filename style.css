@@ -616,7 +616,7 @@ section div h1{
     border-radius: 4px;
 }
 .projetos-container{
-    width: 80%;
+    width: 90%;
     margin:0 auto;
     display: flex;
     justify-content: center;
@@ -657,7 +657,7 @@ section div h1{
 }
 
 .caixa-de-projetos p{
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     margin: 1rem 0 3rem;
     text-align: justify;
 }
@@ -869,9 +869,15 @@ footer .footer__content .footer__copyright {
         color: #fff;
         font-size: 35px;
     }
+    .btn{
+        padding: 1rem;
+    }
   
   
 }
-@media(max-width:280px){
-  
+@media(max-width:380px){
+    .sobre_info{
+        grid-template-columns:80%;
+
+    }
 }
