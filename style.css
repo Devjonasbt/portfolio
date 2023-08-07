@@ -103,9 +103,7 @@ header .navegacao-primaria li a:hover::after {
 
 /* Download CV Section */
 
-.section-div{
-    animation: initialize .1s forwards;
-    
+.section-div{    
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: space-around;
