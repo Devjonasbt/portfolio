@@ -14,10 +14,3 @@ function menuMobile(){
 
 }
 menuMobile();
-const typed =new Typed('.texto',{
-    strings:['Backend Developer', 'Frontend Developer', 'Analista de Sistemas'],
-    typeSpeed: 20,
-    backSpeed: 20,
-    backDelay: 1300,
-    loop:true
-});

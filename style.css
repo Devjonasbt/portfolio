@@ -11,7 +11,7 @@
 }
 h1,h2,h3,h4,p{
     color: #fff;
-    text-shadow: 0px 2px 80px #555252;
+    
 }
 body {
     
@@ -126,9 +126,7 @@ section div span{
     display: grid;
     gap: 30px;
 }
-.h2{
-    display: none;
-}
+
 .section-div div h2{
     font-family: "Poppins", sans-serif;
     font-weight: 600;
@@ -502,6 +500,9 @@ section div h1{
     margin-top: 20px;
     justify-content: center;
 }
+.estrelas{
+    color: #ff5d56;
+}
 
 /* Diplomas e Cursos */
 
@@ -558,7 +559,7 @@ section div h1{
 /* Fun Facts */
 
 
-/* Projetos */
+/*  */
 
 .projects{
     padding: 30px;
@@ -619,31 +620,36 @@ section div h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    gap:2rem;
+    
+    
 }
 @media(max-width:600px){
     .projetos-container{
         width: 98%;
+        flex-wrap: wrap;
     }
 }
 
 .projetos-container .caixa-de-projetos{
-    flex: 1 1 30rem;
     background: var(--second-bg-color);
-    padding: 3rem 2rem 4rem;
+    align-items: center;
+    padding: 30px;
+    justify-content: center;
     border-radius: 2rem;
-    text-align: center;
     border: .2rem solid var(--bg-color);
-    transition: .3s ease;
     box-shadow: 7px 2px 10px -1px rgba(0, 0, 0, 0.64);
-    color: #dc3545;
+    margin-top: 50px;
+
+
+}
+.caixa-de-projetos img{
+    width: 70%;
+    justify-content: center;
+    display: flex;
+    margin:0 auto;
 }
 
-.projetos-container .caixa-de-projetos:hover{
-    border-color: var(--main-color);
-    transform: scale(1.02);
-}
+
 
 .caixa-de-projetos i{
     font-size: 7rem;
@@ -658,6 +664,7 @@ section div h1{
     font-size: 1.4rem;
     margin: 1rem 0 3rem;
     text-align: justify;
+    text-shadow: 0px 2px 80px #bdb5b550;
 }
 footer{
     justify-content: center;
@@ -822,12 +829,7 @@ footer .footer__content .footer__copyright {
     }
 }
 @media(max-width:700px){
-    .h2-span{
-        display: none;
-    }
-    .h2{
-        display: block;
-    }
+ 
     .section-div img {
         display: none;  
     }
