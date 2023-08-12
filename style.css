@@ -793,6 +793,9 @@ footer .footer__content .footer__copyright {
         right: 20px;
         animation: upSection .8s ease-in-out forwards;
     }
+    .section-div div h1 b{
+        display: none;
+    }
 
     .sobre img{
         grid-column: 1/-1;
