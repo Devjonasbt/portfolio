@@ -857,4 +857,8 @@ footer .footer__content .footer__copyright {
         grid-template-columns:80%;
 
     }
+    section div h1{
+        color: #fff;
+        font-size: 22px;
+    }
 }
