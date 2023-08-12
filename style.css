@@ -832,6 +832,9 @@ footer .footer__content .footer__copyright {
         margin-top: 30px;
         padding: 10px;
     }
+    .h1{
+        font-size: 8vw;
+    }
  
 }
 @media(max-width:400px){
@@ -842,9 +845,9 @@ footer .footer__content .footer__copyright {
         padding: 0;
 
     }
-    section div h1{
+    .h1{
         color: #fff;
-        font-size: 30px;
+        font-size:25px;
     }
     .btn{
         padding: 1rem;
@@ -857,8 +860,5 @@ footer .footer__content .footer__copyright {
         grid-template-columns:80%;
 
     }
-    section div h1{
-        color: #fff;
-        font-size: 22px;
-    }
+
 }
