@@ -130,7 +130,6 @@ section div span{
     }
 }
 .section-div h1 {
-    
     white-space: nowrap;
     overflow: hidden;
     animation: typewriter 5s ;
@@ -832,9 +831,7 @@ footer .footer__content .footer__copyright {
         margin-top: 30px;
         padding: 10px;
     }
-    .h1{
-        font-size: 8vw;
-    }
+
  
 }
 @media(max-width:400px){
@@ -845,9 +842,9 @@ footer .footer__content .footer__copyright {
         padding: 0;
 
     }
-    .h1{
+    .section-div div h1{
         color: #fff;
-        font-size:25px;
+        font-size:38px;
     }
     .btn{
         padding: 1rem;
