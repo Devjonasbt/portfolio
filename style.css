@@ -492,8 +492,15 @@ section div h1{
 .my_resume{
     color: white;
     justify-content: center;
-    margin:0 auto;
-    
+    margin:0 auto; 
+}
+.my_resume .sobre_titulo h2{
+    padding: 20px 0;
+    margin: 0 auto;
+    width: 89%;
+    justify-content: center;
+    display: flex;
+
 }
 .my_resume section{
     justify-content: center;
@@ -501,26 +508,7 @@ section div h1{
     
     
 }
-.resume_generica{
-    padding: 30px;
-    display: grid;
-    justify-content: center;
-    gap: 10px;    
-}
 
-.resume_generica h2 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.5rem;
-    background-color: #ff5d56;
-    justify-self: start;
-    padding: 10px;
-    border-radius: 3px;
-    text-transform: uppercase;
-}
-
-.resume_generica h2 i {
-    margin-right: 10px;
-}
 .experience_content ul {
     color: #ff5d56;
     gap: 10px;
@@ -852,6 +840,10 @@ footer .footer__content .footer__copyright {
     .btn{
         padding: 1rem;
     }
+    .section-div div h2{
+        font-size: 20px;
+        
+    }
   
   
 }
@@ -859,6 +851,10 @@ footer .footer__content .footer__copyright {
     .sobre_info{
         grid-template-columns:80%;
 
+    }
+    .section-div div h2 b{
+        
+        display: none;
     }
 
 }
