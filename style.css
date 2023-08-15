@@ -487,6 +487,247 @@ section div h1{
 
 /* Experiencias */
 
+.sub{
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 70px;
+    padding-top: 30px;
+    color: #e73d3d;
+}
+.sect{
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+
+}
+.container1{
+    
+    width: 50%;
+    margin:0 auto;
+
+}
+.container1 h2{
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 5px;
+    margin-bottom: 60px;
+    
+}
+.bar{
+    font-size: 33px;
+    color: #dc3545;
+
+}
+.tech-bar .bar{
+    margin: 40px 0;
+
+}
+.tech-bar .bar:first-child{
+    margin-top: 0;
+}
+.tech-bar .bar:last-child{
+    margin-bottom: 0;
+}
+.tech-bar .bar .indfo{
+    margin-top: 5px;
+}
+.tech-bar .bar .indfo span{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    animation: shwtext 0.5s 1s linear forwards;
+}
+.tech-bar .bar .progress{
+    position: relative;
+    border-radius: 10px;
+    width: 100%;
+    height: 6px;
+    background-color: #ebd8d8;
+    animation:  animac .5s .1s forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+    margin: 3px 0;
+
+
+}
+@keyframes animac{
+    100%{
+        transform: scaleX(1);
+    }
+}
+.tech-bar .bar .progress span{
+    height: 100%;
+    background-color:#ff5d56;
+    position: absolute;
+    border-radius: 10px;
+    animation: animac 1s 1s forwards ;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+.progress.html span{
+    width: 96%;
+}
+.progress.css span{
+    width: 82%;
+}
+.progress.java span{
+    width: 87%;
+}
+.progress.js span{
+    width: 56%;
+}
+.progress.react span{
+    width: 42%;
+}
+.progress span::after{
+    position: absolute;
+    padding: 1px 8px;
+    background-color:#000 ;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 3px;
+    top: -20px;
+    right: -20px;
+    animation: showText 0.5s 1.5s linear forwards;
+    opacity: 0;
+}
+.progress.html span::after{
+    content: "96%";
+}
+.progress.css span::after{
+    content: "82%";
+}
+.progress.java span::after{
+    content: "87%";
+}
+.progress.js span::after{
+    content: "56%";
+}
+.progress.react span::after{
+    content: "42%";
+}
+.progress span::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 7px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-color: #000;
+    top: -10px;
+    right: 0;
+    animation: showText 0.5s 1.5s linear forwards;
+    opacity: 0;
+}
+@keyframes showText{
+    100%{
+        opacity: 1;
+    }
+}
+
+.radial{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.radial .bars{
+    width: 50%;
+    height: 170px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.radial .bars svg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-90deg);
+    width: 120px;
+    height: 160px;
+
+}
+.radial .bars .progress-bar{
+    stroke-width: 10;
+    stroke:rgb(5, 5, 5);
+    fill: transparent;
+    stroke-dasharray: 502;
+    stroke-dashoffset: 502;
+    stroke-linecap: round;
+    animation: ani-bar 1s linear forwards;
+}
+@keyframes ani-bar{
+    100%{
+        stroke-dashoffset: -1;
+    }
+}
+.path{
+    stroke-width: 10;
+    stroke: #0ef;
+    fill: transparent;
+    stroke-dasharray: 502;
+    stroke-dashoffset: 502;
+    stroke-linecap: round;
+}
+.path1{animation: animation-path 1s 1s linear forwards;}
+.path2{animation: animation-path 1s 1s linear forwards;}
+.path3{animation: animation-path 1s 1s linear forwards;}
+.path4{animation: animation-path 1s 1s linear forwards;}
+@keyframes animation-path{
+    100%{
+        stroke-dashoffset:50;
+    }
+}
+@keyframes animation-path{
+    100%{
+        stroke-dashoffset:175;
+    }
+}
+@keyframes animation-path{
+    100%{
+        stroke-dashoffset:125;
+    }
+}
+@keyframes animation-path{
+    100%{
+        stroke-dashoffset:75;
+    }
+}
+.radial .porcentagem{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: 500;
+    animation:  showText 0.5 1s linear forwards;
+    opacity: 0;
+
+}
+.progress-bar .text-bar{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    bottom: -5px;
+    transform: translate(-50%);
+    font-size: 20px;
+    font-weight: 500;
+    animation:  showText 0.5 1s linear forwards;
+    opacity: 0;
+
+}
+.cont-nivel{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/* */
 
 
 .my_resume{
@@ -494,7 +735,7 @@ section div h1{
     justify-content: center;
     margin:0 auto; 
 }
-.my_resume .sobre_titulo h2{
+.my_resume .sobre_titulo P{
     padding: 20px 0;
     margin: 0 auto;
     width: 89%;
@@ -663,6 +904,10 @@ footer .footer__content ul li {
 footer .footer__content ul a {
     display: inline-block;
     padding: 1rem;
+
+}
+footer .footer__content ul li a i{
+    color: #dc3545;
 }
   
 footer .footer__content .footer__copyright {
