@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="shortcut icon" href="assets/icon/code-solid.svg" type="image/x-icon">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <title>Portfolio | DevJonas</title>
     
 </head>
@@ -31,6 +34,7 @@
             </nav>
             
     </header>
+    
     <section  aria-label="seção curriculo download jonas" class="section-div" id="home-gif">
         <div>
             
@@ -58,7 +62,8 @@
         
         
     </section>
-    <main id="sobre" >
+    <main id="sobre"  data-aos="fade-up"
+    data-aos-duration="3000">
         <article aria-label="Seção sobre mim" class="sobre" >
             <div class="sobre_titulo">
                 <h1>Sobre mim</h1>
@@ -70,7 +75,7 @@
                 </div>
             </div>
             
-            <img src="assets/img/eu.1.jpg" alt="ilustration">
+            <img src="assets/img/eu.1.jpg" alt="ilustration" >
             <div  class="sobre_conteudo">
                 <div class="sobre_texto">
                     <h1>Eu sou Jonas !</h1>
@@ -95,7 +100,7 @@
     </main>
   
 
-    <section class="services" id="Habilidades">
+    <section class="services" id="Habilidades" data-aos="fade-right">
             <div class="sobre_titulo">
                 <h1>Conhecimentos</h1>
                 <p>Minhas habilidades - E conhecimentos</p>
@@ -155,7 +160,7 @@
                 </ul>
             </div>
     </section>
-    <div id="resumo" class="my_resume">
+    <div id="resumo" class="my_resume" data-aos="fade-right">
         <div class="sobre_titulo">
             <h1>Resumo</h1>
             <p>Pequeno resumo sobre mim.</p>
@@ -216,9 +221,9 @@
                     </div>
                 
                 </div>
-                <div class="container1">
+                <div class="container1" data-aos="flip-right">
                     <h2>Habilidades profissional</h2>
-                    <div class="container2">
+                    <div class="container2" >
                         <div class="radial">
                             <div class="bars">
                                 <svg x="0px" y="0px" viewBox="0 0 200 200">
@@ -270,7 +275,7 @@
      
     </div>
 
-    <section class="projects" id="projects">
+    <section class="projects" id="projects" data-aos="fade-right">
         <div class="sobre_titulo">
             <h1>Projetos</h1>
             <p>Meus Projetos</p>
@@ -328,8 +333,12 @@
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="js/script.js"></script>
     <!--animaçao pag-->
-
-    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            Option:1
+        });
+      </script>
       
 </body>
 </html>
