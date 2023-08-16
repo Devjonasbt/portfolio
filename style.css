@@ -221,6 +221,51 @@ section div span{
         transform: translate3d(0, 0, 0);
     }
 }
+/*cont*/
+
+.benef{
+    width: 100%;
+    margin:0 auto;
+
+}
+.benef div h2{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.aos-init{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.benef div h2{
+    font-size: 34px;
+    color: #707070;
+}
+.benef .aos-init div{
+    max-width: 350px;
+    margin: 14px;
+}
+.benef .aos-init div span{
+    font-size: 120px;
+    justify-content: left;
+}
+.benef .aos-init div h2 span{
+    font-size: 30px;
+}
+.benef .aos-init div h2{
+    font-size: 23px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+.benef .aos-init p{
+
+    font-size: 20px;
+}
 
 /* Seção principal sobre mim */
 
@@ -1060,5 +1105,3 @@ footer .footer__content .footer__copyright {
         font-size: 20px;
     }
 }
-
-
