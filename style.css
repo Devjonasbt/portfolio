@@ -112,6 +112,7 @@ header .navegacao-primaria li a:hover::after {
     padding: 20px;
 }
 section div span{
+    
     color: #dc3545;
     
 
@@ -173,6 +174,7 @@ section div span{
     color: #e73d3d;
 }
 .a{
+    box-shadow: 0 0 40px 10px #ffffff1d;
     justify-self: start;
     color: #f7f7f7;
     padding: 15px 40px;
@@ -180,7 +182,9 @@ section div span{
     border: 2px solid #f7f7f7;
 }
 
-
+.a:hover{
+    box-shadow: none ;
+}
 .section-div img {
     width: 35vw;
     cursor: pointer;
@@ -222,47 +226,53 @@ section div span{
     }
 }
 /*cont*/
-
-.benef{
+section .benef{
     width: 100%;
     margin:0 auto;
+    justify-content: center;
+    display: grid;
 
 }
-.benef div h2{
+section .benef div h2{
     justify-content: center;
     display: flex;
     align-items: center;
     
     
 }
-.aos-init{
-    display: flex;
+.init{    
     justify-content: center;
     flex-wrap: wrap;
     margin: 0 auto;
+    display: inline-flex;
 }
-.benef div h2{
+.b-h2{
+    margin: 55px 9px;
     font-size: 34px;
     color: #707070;
 }
-.benef .aos-init div{
+.benef .init div{
     max-width: 350px;
     margin: 14px;
 }
-.benef .aos-init div span{
+.benef .init div span{
     font-size: 120px;
-    justify-content: left;
+    justify-content: center;
+    
+    
 }
-.benef .aos-init div h2 span{
+.benef .init div h2 span{
+    
     font-size: 30px;
+    margin: 20px 0;
 }
-.benef .aos-init div h2{
+.benef .init div h2{
     font-size: 23px;
     width: 100%;
     flex-wrap: wrap;
     justify-content: left;
 }
-.benef .aos-init p{
+.benef .init p{
 
     font-size: 20px;
 }
@@ -294,6 +304,7 @@ section div h1{
     font-size:45px;
 }
 .sobre_titulo{
+    
     margin: 30px 0;
     grid-column: 1/-1;
     text-align: center;
@@ -469,7 +480,7 @@ section div h1{
     text-align: center;   
     max-width: 300px;
     margin-top: 50px;
-
+    
 }
 
 .my_service ul li i {
@@ -793,16 +804,10 @@ section div h1{
 }
 
 
-
-
+/*  */
 
 /*  */
 
-.projects{
-    
-    box-shadow: 0 0 40px 10px #ffffff1d;
-    
-}
 .flex{
     
     display: flex;
@@ -1060,8 +1065,22 @@ footer .footer__content .footer__copyright {
     .radial{
         min-width: 130px;
     }
- 
-
+    .container-objective{
+        display: block;
+    }
+    .container-objective .image{
+        width: 100%;
+    }
+    .container-objective .image img{
+        width: 100%;
+        height: auto;
+    } 
+    .container-objective .image{
+        height: auto;
+    }
+    .container-objective .informs{
+        width: 100%;
+    }
  
 }
 @media(max-width:400px){
