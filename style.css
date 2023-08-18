@@ -248,7 +248,7 @@ section .benef div h2{
 }
 .b-h2{
     margin: 55px 9px;
-    font-size: 34px;
+    font-size: 38px;
     color: #707070;
 }
 .benef .init div{
@@ -321,8 +321,10 @@ section div h1{
 .sobre_titulo p{
     color: #707070;
     font-size: 1.4rem;
-    margin-bottom:1rem;
+    
+    margin: 1rem 40px;
     position: relative;
+    
 }
 
 .sobre_titulo div{
@@ -1105,6 +1107,9 @@ footer .footer__content .footer__copyright {
     .sub{
         font-size: 30px;
 
+    }
+    .sobre_titulo p{
+        margin: 15px 0;
     }
   
 }
