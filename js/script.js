@@ -1,6 +1,6 @@
 function clic(){
     var al = document.getElementById("btn").
-    al = alert("Ainda em contrução")
+    al = alert("Ainda em construção")
 }
 function menuMobile(){
     const activeMenu = document.querySelector('.fa-bars');

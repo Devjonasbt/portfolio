@@ -10,7 +10,8 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
+    <!---->
+    <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
     <title>Portfolio | DevJonas</title>
     
 </head>
@@ -349,60 +350,86 @@
             </div>
         </div>
         <div class="flex">
-            <div class="img-port">
-                <img src="assets/img/vid.jpg" alt="">
-                <div>
+            <div class="img-port" id="item1" data-aos="fade-right">
+                <div class="swiffy-slider">
+                    <ul class="slider-container">
+                        <li><img src="assets/img/tela1.png" ></li>
+                        <li><img src="assets/img/tela2.png "></li>
+                        <li><img src="assets/img/tela3.png"></li>
+                        <li><img src="assets/img/tela4.png"></li>
+                    </ul>
+                
+                    <button type="button" class="slider-nav"></button>
+                    <button type="button" class="slider-nav slider-nav-next"></button>
+                
+                    <div class="slider-indicators">
+                        <button class="active"></button>
+                        <button></button>
+                        <button></button>
+                    </div>
+                </div>
+                <div class="text-proj">
                     <h2>
                         Meu primeiro projeto
                     </h2>
                     <br>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae vitae rerum reprehenderit ipsam, minus cumque quasi nostrum quod. Cumque assumenda consequuntur error. Sapiente commodi nisi temporibus quam omnis accusamus dolorem!</p>
-                    <div class="class-butt"><button type="button">Ver mais</button></div>
+                    <div class="class-butt"><button type="button" ><a href="https://devjonasbt.github.io/Site_ADIMO/">Ver mais</a></button></div>
                 </div>
             </div>
-            <div class="img-port">
-                <img src="assets/img/vid.jpg" alt="">
-                <div>
+            <div class="img-port" id="item2" data-aos="fade-right">
+                <div class="swiffy-slider">
+                    <ul class="slider-container">
+                        <li><img src="https://www.cleverfiles.com/howto/wp-content/uploads/2016/08/mini.jpg"></li>
+                        <li><img src="https://source.unsplash.com/nKAglN6HBH8/1600x900""></li>
+                        <li><img src="https://source.unsplash.com/E9ZwWcMGzj8/1600x900"></li>
+                    </ul>
+                
+                    <button type="button" class="slider-nav"></button>
+                    <button type="button" class="slider-nav slider-nav-next"></button>
+                
+                    <div class="slider-indicators">
+                        <button class="active"></button>
+                        <button></button>
+                        <button></button>
+                    </div>
+                </div>
+                <div class="text-proj">
                     <h2>
                         Meu primeiro projeto
                     </h2>
                     <br>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae vitae rerum reprehenderit ipsam, minus cumque quasi nostrum quod. Cumque assumenda consequuntur error. Sapiente commodi nisi temporibus quam omnis accusamus dolorem!</p>
-                    <div class="class-butt"><button type="button">Ver mais</button></div>
+                    <div class="class-butt"><button type="button" onclick="clic()"><a href="">Ver mais</a></button></div>
                 </div>
             </div>
-            <div class="img-port">
-                <img src="assets/img/vid.jpg" alt="">
-                <div>
+            <div class="img-port" id="item3" data-aos="fade-right">
+                <div class="swiffy-slider">
+                    <ul class="slider-container">
+                        <li><img src="https://www.cleverfiles.com/howto/wp-content/uploads/2016/08/mini.jpg"></li>
+                        <li><img src="https://source.unsplash.com/nKAglN6HBH8/1600x900"></li>
+                        <li><img src="https://source.unsplash.com/E9ZwWcMGzj8/1600x900"></li>
+                    </ul>
+                
+                    <button type="button" class="slider-nav"></button>
+                    <button type="button" class="slider-nav slider-nav-next"></button>
+                
+                    <div class="slider-indicators">
+                        <button class="active"></button>
+                        <button></button>
+                        <button></button>
+                    </div>
+                </div>
+                <div class="text-proj">
                     <h2>
                         Meu primeiro projeto
                     </h2>
                     <br>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae vitae rerum reprehenderit ipsam, minus cumque quasi nostrum quod. Cumque assumenda consequuntur error. Sapiente commodi nisi temporibus quam omnis accusamus dolorem!</p>
-                    <div class="class-butt"><button type="button">Ver mais</button></div>
+                    <div class="class-butt"><button type="button" onclick="clic()"><a href="">Ver mais</a></button></div>
                 </div>
             </div>
-            <!--<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="..." class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>-->
+            <!---->
         </div>
     </section>
        <!-- Footer -->
@@ -450,6 +477,7 @@
             Option:1
         });
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
       
 </body>
 </html>
