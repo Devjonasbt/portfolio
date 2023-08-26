@@ -556,18 +556,7 @@ section div h1{
     padding-top: 30px;
     color: #e73d3d;
 }
-
-/* */
-
-
-.my_resume{
-    color: white;
-    justify-content: center;
-    margin:0 auto; 
-}
-
-
-/* .sect{
+.sect{
     display: flex;
     flex-wrap: wrap;
     width: 95%;
@@ -810,9 +799,20 @@ section div h1{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-} */
+}
+/* */
 
-/*    
+
+.my_resume{
+    color: white;
+    justify-content: center;
+    margin:0 auto; 
+}
+
+
+/*  */
+
+/*  
 */
 
 .flex{
