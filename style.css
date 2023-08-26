@@ -630,19 +630,19 @@ section div h1{
     transform-origin: left;
 }
 .progress.html span{
-    width: 96%;
+    width: 60%;
 }
 .progress.css span{
-    width: 82%;
+    width: 52%;
 }
 .progress.java span{
-    width: 87%;
+    width: 39%;
 }
 .progress.js span{
-    width: 56%;
+    width: 30%;
 }
 .progress.react span{
-    width: 42%;
+    width: 22%;
 }
 .progress span::after{
     position: absolute;
@@ -657,19 +657,19 @@ section div h1{
     opacity: 0;
 }
 .progress.html span::after{
-    content: "96%";
+    content: "60%";
 }
 .progress.css span::after{
-    content: "82%";
+    content: "52%";
 }
 .progress.java span::after{
-    content: "87%";
+    content: "39%";
 }
 .progress.js span::after{
-    content: "56%";
+    content: "30%";
 }
 .progress.react span::after{
-    content: "42%";
+    content: "22%";
 }
 .progress span::before{
     content: "";
