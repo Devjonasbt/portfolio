@@ -601,6 +601,7 @@ section div h1{
     font-size: 24px;
     font-weight: 500;
     animation: shwtext 0.5s 1s linear forwards;
+
 }
 .tech-bar .bar .progress{
     position: relative;
@@ -1094,7 +1095,9 @@ footer .footer__content .footer__copyright {
 
 }
 @media(max-width:700px){
- 
+    .tech-bar .bar .progress{
+        margin-top: 20px;
+    }
     .section-div img {
         display: none;  
     }
